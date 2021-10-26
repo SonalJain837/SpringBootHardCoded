@@ -1,0 +1,4 @@
+com\springboot\SpringBootRestApIHardcoded\service\TopicService.class
+com\springboot\SpringBootRestApIHardcoded\controller\TopicController.class
+com\springboot\SpringBootRestApIHardcoded\entity\Topic.class
+com\springboot\SpringBootRestApIHardcoded\SpringBootRestApIHardcodedApplication.class
