@@ -5,6 +5,6 @@ COPY ./src ./src
 RUN mvn package -DskipTests
 FROM openjdk:11-jdk
 WORKDIR /my-project
-COPY --from=maven target/SpringBootRestApIHardcoded-0.0.1-SNAPSHOT ./
+COPY --from=maven target/SpringBootRestApIHardcoded-0.0.1-SNAPSHOT.jar ./
 EXPOSE 8001
 CMD ["java", "-jar", "./SpringBootRestApIHardcoded-0.0.1-SNAPSHOT.jar"]
